@@ -8,3 +8,6 @@ Route::get('/', function () {
 Route::get('home', function () {
     return view('panel.index');
 });
+Route::get('catogries', function () {
+    return view('panel.catogries');
+});
